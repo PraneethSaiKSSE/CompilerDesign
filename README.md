@@ -10,5 +10,9 @@ LEFT FACTORING
 FIRST
 ![FIRST](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/f6a56f66-8c8a-4cce-b9b3-77939a2d05ff)
 
+FOLLOW
+![FOLLOW](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/727782a2-5b99-4389-b54d-7db1c421924d)
+
+
 
 
