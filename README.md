@@ -22,6 +22,10 @@ SHIFT REDUCE
 TOKEN
 ![TOKEN](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/d7d9ad58-c2bf-4c30-8cff-e16257627b10)
 
+OPERATOR PRECEDENCE
+![OP PRECEDENCE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/f4742155-a91c-47bf-8a9c-b322a06425a1)
+
+
 
 
 
