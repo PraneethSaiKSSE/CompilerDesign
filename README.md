@@ -13,6 +13,10 @@ FIRST
 FOLLOW
 ![FOLLOW](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/727782a2-5b99-4389-b54d-7db1c421924d)
 
+SYMBOLTABLE
+![SYMBOL TABLE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/d57a46a6-26b2-4681-81ed-79813691a836)
+
+
 
 
 
