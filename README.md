@@ -16,6 +16,10 @@ FOLLOW
 SYMBOLTABLE
 ![SYMBOL TABLE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/d57a46a6-26b2-4681-81ed-79813691a836)
 
+SHIFT REDUCE
+![SHIFT REDUCE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/ae1f1c72-4e4a-40f3-b809-13ba9af6610e)
+
+
 
 
 
