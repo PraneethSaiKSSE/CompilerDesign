@@ -1,77 +1,35 @@
-#include <stdio.h>
-#include <string.h>
-
-#define MAX_PROD_SIZE 100
-
-void eliminateLeftRecursion(char grammar[][MAX_PROD_SIZE], int numProductions, char nonTerminal) {
-    int i, j;
-    int newProductions = 0;
-
-    for (i = 0; i < numProductions; i++) {
-        if (grammar[i][0] == nonTerminal) {
-            if (grammar[i][3] == nonTerminal) {
-                char alpha[MAX_PROD_SIZE] = "";
-                char beta[MAX_PROD_SIZE] = "";
-                int alphaIndex = 0, betaIndex = 0;
-
-                for (j = 3; grammar[i][j] != '\0'; j++) {
-                    if (grammar[i][j] == nonTerminal) {
-                        alpha[alphaIndex++] = '\0';
-                    }
-                    alpha[alphaIndex++] = grammar[i][j];
-                }
-                alpha[alphaIndex] = '\0';
-
-                for (j = 0; j < numProductions; j++) {
-                    if (grammar[j][0] == nonTerminal && i != j) {
-                        beta[betaIndex++] = '\0';
-                        strcat(beta, &grammar[j][3]);
-                        strcat(beta, "'");
-                    }
-                }
-                beta[betaIndex] = '\0';
-
-                strcpy(grammar[i], "");
-                strcpy(grammar[i], nonTerminal);
-                strcat(grammar[i], "->");
-                strcat(grammar[i], beta);
-                strcpy(grammar[numProductions + newProductions], "");
-                strcpy(grammar[numProductions + newProductions], nonTerminal);
-                strcat(grammar[numProductions + newProductions], "'");
-                strcat(grammar[numProductions + newProductions], "->");
-                strcat(grammar[numProductions + newProductions], alpha);
-                strcat(grammar[numProductions + newProductions], beta);
-                newProductions++;
-            }
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char gram[20],part1[20],part2[20],modifiedGram[20],newGram[20],tempGram[20];
+    int i,j=0,k=0,l=0,pos;
+    printf("Enter Production : A->");
+    gets(gram);
+    for(i=0;gram[i]!='|';i++,j++)
+        part1[j]=gram[i];
+    part1[j]='\0';
+    for(j=++i,i=0;gram[j]!='\0';j++,i++)
+        part2[i]=gram[j];
+    part2[i]='\0';
+    for(i=0;i<strlen(part1)||i<strlen(part2);i++){
+        if(part1[i]==part2[i]){
+            modifiedGram[k]=part1[i];
+            k++;
+            pos=i+1;
         }
     }
-
-    printf("\nGrammar after eliminating left recursion for %c:\n", nonTerminal);
-    for (i = 0; i < numProductions + newProductions; i++) {
-        printf("%s\n", grammar[i]);
+    for(i=pos,j=0;part1[i]!='\0';i++,j++){
+        newGram[j]=part1[i];
     }
-}
-
-int main() {
-    char grammar[MAX_PROD_SIZE][MAX_PROD_SIZE];
-    int numProductions;
-    char nonTerminal;
-    int i;
-
-    printf("Enter the number of productions: ");
-    scanf("%d", &numProductions);
-    fflush(stdin);
-
-    printf("Enter the grammar (e.g., E->E+T;E->T): \n");
-    for (i = 0; i < numProductions; i++) {
-        fgets(grammar[i], MAX_PROD_SIZE, stdin);
+    newGram[j++]='|';
+    for(i=pos;part2[i]!='\0';i++,j++){
+        newGram[j]=part2[i];
     }
-
-    printf("\nEnter the non-terminal for which left recursion should be eliminated: ");
-    scanf("%c", &nonTerminal);
-
-    eliminateLeftRecursion(grammar, numProductions, nonTerminal);
-
-    return 0;
+    modifiedGram[k]='X';
+    modifiedGram[++k]='\0';
+    newGram[j]='\0';
+    printf("\nGrammar Without Left Factoring : : \n");
+    printf(" A->%s",modifiedGram);
+    printf("\n X->%s\n",newGram);
 }
-
