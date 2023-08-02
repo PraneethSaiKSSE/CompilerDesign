@@ -1,11 +1,8 @@
 #include<stdio.h>
-
 int main()
 {
     char str[30];
     int i = 2, a = 0;
-    
-
     printf("\nWrite a C Program to Identify Whether a Given Line is a Commentor Not.");
     printf("\n\nEnter Text : ");
     scanf("%s",str);
@@ -20,7 +17,6 @@ int main()
             {
                 if(str[i] == '*' && str[i + 1] == '/')
                 {
-                    
                     a = 1;
                     break;
                 }
