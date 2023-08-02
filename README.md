@@ -4,3 +4,7 @@ COMMENTS IN C
 LEFT RECURSION
 ![LEFT RECURSION](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/2f14e95d-75bd-4672-90aa-caac5e1a9a6a)
 
+LEFT FACTORING
+![LEFT FACTORING](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/9ef0c693-2ff1-48c0-8506-c3c3c1f2d393)
+
+
