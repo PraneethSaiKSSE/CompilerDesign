@@ -50,6 +50,10 @@ CAPITAL LETTERS
 ADD LINE
 ![ADD LINE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/8edfc3d7-187b-4acc-896e-fcb6e5ed8904)
 
+HEADER MACRO
+![HEADER MACRO](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/9aedf6f0-8b97-4c6b-a5ee-e0d6fbb3dd89)
+
+
 
 
 
