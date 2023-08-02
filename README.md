@@ -41,6 +41,10 @@ VOWELS AND CONSONANTS
 DIGIT
 ![DIGIT](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/b38e601b-52dc-4749-9558-87f27aedd68f)
 
+CONSTANT
+![CONSTANT](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/eebf7726-2424-43bd-9a52-19a35ba13dcd)
+
+
 
 
 
