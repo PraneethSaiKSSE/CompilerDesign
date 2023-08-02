@@ -38,6 +38,10 @@ MAIL
 VOWELS AND CONSONANTS
 ![VOW CON](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/da93a8ee-5591-4be4-b723-e2293f1ed5f8)
 
+DIGIT
+![DIGIT](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/b38e601b-52dc-4749-9558-87f27aedd68f)
+
+
 
 
 
