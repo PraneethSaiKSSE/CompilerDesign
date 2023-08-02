@@ -35,6 +35,10 @@ MAIL
 
 ![MAIL](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/8135a028-22a7-45ca-87f1-6231688163ea)
 
+VOWELS AND CONSONANTS
+![VOW CON](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/da93a8ee-5591-4be4-b723-e2293f1ed5f8)
+
+
 
 
 
