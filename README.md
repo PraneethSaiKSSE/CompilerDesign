@@ -7,4 +7,8 @@ LEFT RECURSION
 LEFT FACTORING
 ![LEFT FACTORING](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/9ef0c693-2ff1-48c0-8506-c3c3c1f2d393)
 
+FIRST
+![FIRST](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/f6a56f66-8c8a-4cce-b9b3-77939a2d05ff)
+
+
 
