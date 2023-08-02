@@ -44,6 +44,10 @@ DIGIT
 CONSTANT
 ![CONSTANT](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/eebf7726-2424-43bd-9a52-19a35ba13dcd)
 
+CAPITAL LETTERS
+![CAPITAL LETTER](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/e930d737-29c0-4679-902a-7cf74fe1d9af)
+
+
 
 
 
