@@ -19,6 +19,10 @@ SYMBOLTABLE
 SHIFT REDUCE
 ![SHIFT REDUCE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/ae1f1c72-4e4a-40f3-b809-13ba9af6610e)
 
+TOKEN
+![TOKEN](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/d7d9ad58-c2bf-4c30-8cff-e16257627b10)
+
+
 
 
 
