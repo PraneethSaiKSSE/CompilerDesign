@@ -31,6 +31,10 @@ URL
 MOBILE NUMBER
 ![MOBILE NUMBER](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/740261e5-2146-4449-9920-8b629f8d8635)
 
+MAIL
+
+![MAIL](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/8135a028-22a7-45ca-87f1-6231688163ea)
+
 
 
 
