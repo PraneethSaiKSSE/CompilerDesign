@@ -59,6 +59,10 @@ DATE OF BIRTH
 BACKEND OF COMPILER
 ![BACKEND](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/8c50d210-9faf-4de1-8c26-e94fad288d1f)
 
+LEX COUNT LINES WORDS CHARS
+![COUNT LINES WORDS](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/e6aa956c-07b4-464e-b3b9-13aa25577510)
+
+
 
 
 
