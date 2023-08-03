@@ -56,6 +56,10 @@ HEADER MACRO
 DATE OF BIRTH
 ![DOB](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/4f7c029e-30fa-4c96-a133-26759e45334a)
 
+BACKEND OF COMPILER
+![BACKEND](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/8c50d210-9faf-4de1-8c26-e94fad288d1f)
+
+
 
 
 
