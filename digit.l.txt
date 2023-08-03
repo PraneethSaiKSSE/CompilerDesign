@@ -1,0 +1,22 @@
+
+%{
+#include<stdio.h>
+#include<stdlib.h>
+%}
+
+%%
+[0-9]+ {printf("digit");}
+.+ {printf("not a digit");}
+
+%%
+
+int yywrap()
+{}
+
+int main()
+{
+
+  printf("\n Enter input:");		
+  yylex();
+  return 0;
+}
