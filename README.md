@@ -53,6 +53,8 @@ ADD LINE
 HEADER MACRO
 ![HEADER MACRO](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/9aedf6f0-8b97-4c6b-a5ee-e0d6fbb3dd89)
 
+DATE OF BIRTH
+![DOB](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/4f7c029e-30fa-4c96-a133-26759e45334a)
 
 
 
