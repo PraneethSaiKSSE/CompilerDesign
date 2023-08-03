@@ -22,8 +22,6 @@ SHIFT REDUCE
 TOKEN
 ![TOKEN](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/d7d9ad58-c2bf-4c30-8cff-e16257627b10)
 
-OPERATOR PRECEDENCE
-![OP PRECEDENCE](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/f4742155-a91c-47bf-8a9c-b322a06425a1)
 
 URL
 ![URL](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/19526b0e-4f8c-469c-9b75-9620b8a165ed)
@@ -61,6 +59,10 @@ BACKEND OF COMPILER
 
 LEX COUNT LINES WORDS CHARS
 ![COUNT LINES WORDS](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/e6aa956c-07b4-464e-b3b9-13aa25577510)
+
+QUADRUPLES
+![QUADRUPLES](https://github.com/PraneethSaiKSSE/CompilerDesign/assets/113979088/ea50920d-e9c6-4e18-9422-3d2f78d103d6)
+
 
 
 
