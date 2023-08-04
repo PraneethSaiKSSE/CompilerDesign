@@ -1,0 +1,23 @@
+%{
+#include<stdio.h>
+%}
+
+%%
+
+[a-z] {printf("its an identifier");}
+"int"|"main"|"char"|"if"|"else"|"while" {printf("its a keyword");}
+[0-9]+ {printf("its a constant");}
+"+"|"-"|"/"|"%"|"=" {printf("its an operator");}
+.+ {printf("invalid input");}
+
+%%
+
+int yywrap()
+{}
+
+int main()
+{
+printf("enter input: ");
+yylex();
+return 0;
+}
