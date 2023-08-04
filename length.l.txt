@@ -1,0 +1,21 @@
+%{
+#include <stdio.h>
+int str_length = 0;
+%}
+%%
+.       { str_length++; }
+
+\n      ; 
+%%
+
+int yywrap()
+{}
+int main() {
+    printf("Enter a string:\n");
+
+    yylex();
+
+    printf("Length of the string: %d\n", str_length);
+
+    return 0;
+}
