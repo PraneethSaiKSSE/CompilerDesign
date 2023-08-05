@@ -1,41 +1,44 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include <string.h>
-bool isAmbiguous(char *input) {
+
+int isAmbiguous(char* input, char* rule1, char* rule2, int start, int end) {
 	int i;
-    int n = strlen(input);
-    int a_count = 0;
-    int b_count = 0;
-    bool a_found = false;
-    bool b_found = false;
-    for(i = 0; i < n; i++) {
-        if (input[i] == 'a') {
-            a_found = true;
-            a_count++;
-        } else if (input[i] == 'b') {
-            b_found = true;
-            b_count++;
-        } else {
-            return false; 
-        }
-        if (b_found && a_count > b_count) {
-            return true;
+    if (start == end) {
+        return 1; 
+    }
+
+    for (i = start + 1; i < end; i++) {
+        if (input[i] == rule2[0]) {
+            int len = strlen(rule1);
+            if (i - start >= len && strncmp(input + start, rule1, len) == 0) {
+                return isAmbiguous(input, rule1, rule2, start + len, i) && isAmbiguous(input, rule1, rule2, i, end);
+            }
         }
     }
-    return a_found && a_count != b_count;
+
+    return 0; 
 }
 
 int main() {
     char input[100];
-    printf("Enter the input string: ");
+    char rule1[100];
+    char rule2[100];
+
+    printf("Enter the first rule (S->): ");
+    scanf("%s", rule1);
+
+    printf("Enter the second rule (S->): ");
+    scanf("%s", rule2);
+
+    printf("Enter an input string: ");
     scanf("%s", input);
 
-    if (isAmbiguous(input)) {
-        printf("The grammar is ambiguous for the input string.\n");
+    int ambiguous = isAmbiguous(input, rule1, rule2, 0, strlen(input) - 1);
+    if (ambiguous) {
+        printf("The given grammar is ambiguous for the input.\n");
     } else {
-        printf("The grammar is not ambiguous for the input string.\n");
+        printf("The given grammar is not  ambiguous for the input.\n");
     }
 
     return 0;
 }
-
