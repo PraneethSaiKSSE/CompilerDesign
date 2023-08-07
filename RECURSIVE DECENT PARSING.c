@@ -1,55 +1,48 @@
 #include<stdio.h>
-#include <stdlib.h>
-char l;
-void match(char c)
-   {
-    if(l==c)
-    l=getchar();
-    else 
-   {   
-    printf("Invalid Input\n"); 
-    exit(0);
-    }
-   }
-void B()
-  {
-    if(l=='b')
-  {
-    match('b'); 
-  }
-    else 
-  {   
-    printf("Invalid Input\n"); 
-    exit(0);
-   }
-  }
-void A()
- {
-    if(l=='a')
-    {
-    match('a');
-    B();
-    }
-    else
-    return;
-  }
-void S()
-  {
-    A();
-    A();
-  }
+int c=0;
+char p[20];
+void s();
+void l();
+void lprime();
+void l()
+{
+	s();
+	lprime();
+
+}
+void lprime()
+{
+	if(p[c]==',')
+	{
+		c++;
+		s();
+		lprime();
+	}
+}
+void s()
+{
+	if(p[c]=='a')
+	c++;
+	else if(p[c]=='(')
+	{
+		c++;
+		l();
+		if(p[c]==')')
+		c++;
+		else
+		c--;
+	}
+	else
+	printf("\ninvalid expression");
+}
 int main()
-{    
-    char input[10];
-    printf("Enter String with $ at the end\n");
-    l=getchar();
-    S();
-    if(l=='$')
-    {
-      printf("\nParsing Successful\n");
-    }
-    else  
-    {
-      printf("Invalid Input\n");
-    }  
+{
+	printf("\n implementation of recursive descent parser\n");
+	printf("\nenter the expression:\n");
+	scanf("%s",p);
+	s();
+	if(p[c]=='$')
+	printf("\nthe string is accepted");
+	else
+	printf("\n the string is rejected");
 }
